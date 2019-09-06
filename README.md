@@ -21,6 +21,20 @@ The following JSON is an example of a request made to the new version of Sentime
             "id": "2",
             "language": "ja",
             "text": "美味しいごはんを食べて幸せ"
+        },
+        {
+            'id': '3',
+            'text': 'このドキュメントは日本語で書かれています'
+        },
+        {
+            "id": "4",
+            "language": "ja",
+            "text": "マイクロソフトは1975年4月4日にビルゲイツとポールアレンによって創設された"
+        },
+        {
+           "id": "5",
+           "language": "ja",
+           "text": "私の犬は獣医に見てもらう必要がある"
         }
         ],
     }
@@ -33,4 +47,13 @@ A score closer to 0 indicates a negative sentiment, while a score closer to 1 in
 ```console
 Document Id:  1 , Sentiment Score:  0.56
 Document Id:  2 , Sentiment Score:  0.68
+Document Id:  3 , Language:  Japanese
+Document Id:  4
+        Key Entities:
+                 NAME:  マイクロソフト  Type:  Organization     Sub-type:  None
+                        Offset:  18     Length:  5      Score:  0.94
+Document Id:  5
+        Key Phrases:
+                 獣医
+                 必要
 ```
