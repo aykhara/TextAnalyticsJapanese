@@ -23,8 +23,8 @@ The following JSON is an example of a request made to the new version of Sentime
             "text": "美味しいごはんを食べて幸せ"
         },
         {
-            'id': '3',
-            'text': 'このドキュメントは日本語で書かれています'
+            "id": "3",
+            "text": "このドキュメントは日本語で書かれています"
         },
         {
             "id": "4",
